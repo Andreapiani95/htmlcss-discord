@@ -36,6 +36,48 @@ body{
 
 /*
 
+BUTTONS
+
+*/
+
+button{
+    border: none;
+    text-align: center;
+    border-radius: 15% / 50%;
+    height: 60px;
+}
+
+.mac-download{
+    background-color: white;
+    width: 150px;
+    font-size: 16px;
+}
+
+.browser-link{
+    background-color: #23272A;
+    color: white;
+    width: 220px;
+    font-size: 16px;
+}
+
+.sign-up{
+    background-color: #8EA1E1;
+    color: white;
+    height: 40px;
+    width: 100px;
+    font-size: 12px;
+}
+
+.login-button{
+    background-color: white;
+    height: 30px;
+    width: 80px;
+    font-size: 12px;
+}
+
+
+/*
+
     HEADER
 
 */
@@ -89,6 +131,12 @@ a{
     justify-content: center;
 }
 
+.download-flexbox{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+
 
 /*
 
@@ -125,6 +173,9 @@ main>section:nth-of-type(even){
     FOOTER
 
 */
+.footer{
+    background-color: #23272A;
+}
 
 .footer-top{
     background-color: #23272A;
@@ -142,6 +193,9 @@ main>section:nth-of-type(even){
     color:white;
 }
 
+hr{
+    width: 100%;
+}
 
 
 .four{
@@ -169,6 +223,10 @@ main>section:nth-of-type(even){
 
 */
 
+i{
+    font-size: 30px;
+}
+
 .debug .header-top,
 .debug .nav-bar{
 
@@ -194,9 +252,7 @@ main>section:nth-of-type(even){
 
 
 
-.debug .footer-top{
-    height: 800px;
-}
+
 
 .debug .footer-bottom{
     height: 100px;
