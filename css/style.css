@@ -53,6 +53,13 @@ button{
     font-size: 16px;
 }
 
+.footer-mac-download{
+    background-color: #8EA1E1;
+    color: white;
+    width: 220px;
+    font-size: 16px;
+}
+
 .browser-link{
     background-color: #23272A;
     color: white;
@@ -173,13 +180,14 @@ main>section:nth-of-type(even){
     FOOTER
 
 */
+
 .footer{
     background-color: #23272A;
 }
 
 .footer-top{
     background-color: #23272A;
-    padding-top: 10px;
+    padding-top: 100px;
 }
 
 .footer-bottom{
@@ -197,9 +205,14 @@ hr{
     width: 100%;
 }
 
+.three{
+    align-items: flex-start;
+    align-content: space-around;
+}
 
 .four{
     width: 60%;
+
 }
 
 .columns-green{
@@ -209,12 +222,18 @@ hr{
 
 .five{
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
+    flex-wrap: wrap;
 }
 
+.columns-green>ul>:first-of-type{
+    color:#738BDD;
+}
 
-
+.columns-salmon>h2{
+    color:#738BDD;
+}
 
 
 /*
@@ -223,8 +242,9 @@ hr{
 
 */
 
-i{
-    font-size: 30px;
+.fa-brands{
+    font-size: 12px;
+    color: white;
 }
 
 .debug .header-top,
@@ -252,7 +272,9 @@ i{
 
 
 
-
+.debug .footer-top{
+    height: 600px;
+}
 
 .debug .footer-bottom{
     height: 100px;
